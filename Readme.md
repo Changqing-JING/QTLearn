@@ -24,3 +24,7 @@ install from source code:
 
 clean configure:
     git submodule foreach --recursive "git clean -dfx"
+
+
+Build on windows:
+cmake -G "Visual Studio 16 2019" ..
